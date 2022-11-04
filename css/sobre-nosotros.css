@@ -1,10 +1,10 @@
-.sobre-nosotros {
+.sobre_nosotros__plataformas {
     display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-   
+    padding: 35px;
+}
+
+.sobre-nosotros {
+    padding: 15px;
 
 }
 
@@ -14,30 +14,38 @@
     font-size: 1.5rem;
     font-family: var(--montserrat);
     text-transform: uppercase;
-    text-align: center;
     margin-bottom: 1.25rem;
 }
 
+.texto {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding: 20px 0;
 
-.sobre_nosotros__texto {
-    line-height: normal;
-    margin-bottom: 1rem;
 }
 
-.nosotros2{
-    display: flex;
-    justify-content: flex-end;
+.texto2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4F4C4C;
 }
-.iconos{
+.raya {
+    margin: 20px 0px
+}
+
+
+
+.iconos {
     padding-top: 30px;
 }
-.iconos img{
+
+.iconos img {
     margin: 0 40px;
-   
 
-    
+
 }
-
-
-
-
